@@ -1,0 +1,37 @@
+.catch-container {
+   display: flex;
+   padding-top: 127px; 
+   padding-bottom: 155px;
+}
+
+.catch-text-container {
+   width: 700px;
+   position: relative;
+}
+
+.catch-images {
+   width: 456px;
+}
+
+.phone1 {
+   width: 294px;
+   position: absolute;
+   top: 850px;
+   z-index: 3;
+}
+
+.phone2 {
+   width: 294px;
+   position: absolute;
+   right: 3%;
+   top: 950px;
+   z-index: 2;
+}
+
+.phone3 {
+   width: 294px;
+   position: absolute;
+   right: 5%;
+   top: 750px;
+   z-index: 1;
+}

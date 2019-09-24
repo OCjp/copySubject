@@ -1,0 +1,26 @@
+.feature-containts {
+    text-align: center;
+    display: flex;
+}
+
+.feature-item {
+    width: 33.3333%
+    // margin: 0 65px;
+    // padding: 10px;
+}
+
+.feature-image {
+    width: 173px;
+}
+
+.feature-sub-title {
+    padding: 20px 0 11px;
+}
+
+.feature-item:first-child {
+    padding-right: calc(100% / 10.1);
+}
+
+.feature-item:last-child {
+    padding-left: calc(100% / 10.1);
+}

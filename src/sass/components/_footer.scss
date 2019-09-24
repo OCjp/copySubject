@@ -1,0 +1,22 @@
+.copyright { 
+    float: left;
+    margin: 8px;
+    padding: 8px;
+}
+
+
+.footer-list {
+    float: right;
+    li {
+        float: left;
+        list-style: none;
+        margin-right: 0;
+        padding: 8px;
+        margin: 8px;
+        a {
+            text-decoration: none;
+            color: #FCFCFC;
+        }
+    } 
+}
+

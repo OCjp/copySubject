@@ -1,0 +1,50 @@
+.contact-contents form {
+    display: flex;
+}
+
+.contact-left {
+    width: 500px;
+    input, select {
+        border: 2px solid #cccccc;
+        background-color: #ffffff;
+        width: 100%;
+        height: 60px;
+        padding-left: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.07em;
+    }
+}
+
+.contact-right {
+    // width: 500px;
+    textarea {
+        border: 2px solid #cccccc;
+        background-color: #ffffff;
+        width: 538px;
+        height: 150px;
+        padding: 13px 20px;
+        margin: 0 0 29px 40px; 
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.11em;
+        display: block;
+    }
+}
+
+.mail-field-submit {
+    color: #ffffff;
+    background-color: #333333;
+    width: 539px;
+    height: 59px;
+    padding: 15px;
+    margin-left: 40px; 
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+}
+
+.mail-field-email {
+    margin: 29px 0;
+}
+

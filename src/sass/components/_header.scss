@@ -1,0 +1,36 @@
+.header {
+    padding: 30px 80px;  
+    margin: 0px;  
+}
+
+.logo {
+    float: left;
+}
+
+.nav-list{
+    float: right;
+    ul {
+        li {
+            list-style: none;
+            float: left;
+            margin: 0px 20px;
+            font-weight: 700;
+            color: #333333;
+
+            // &:hover {
+            //     border-bottom: 4px solid #333333;
+            //     color: #9d9693;
+                a {
+                    text-decoration: none;
+                    color: #333333;
+                }
+            // }
+            
+        }   
+    }
+}
+
+.nav-list li :hover {
+    border-bottom: 4px solid #333333;
+    color: #9d9693;
+}

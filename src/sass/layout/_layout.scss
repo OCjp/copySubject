@@ -1,0 +1,23 @@
+//.l-container {
+//
+//  @include max-screen($breakpoint-mobile) {
+//
+//  }
+//}
+.l-container {
+    width: 1156px;
+    padding: 0 40px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+
+.l-header { 
+    height: 95px;
+    border-bottom: 2px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.l-center {
+    text-align: center;
+}
